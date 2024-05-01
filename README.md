@@ -2,13 +2,13 @@
 
 ## Contact API
 
-  http://localhost:8006/api/v1/contact
+http://localhost:8006/api/v1/contact
 
 ### create (post)
 
-  http://localhost:8006/api/v1/contact/create
-  
-  body : 
+http://localhost:8006/api/v1/contact/create
+
+body :
 
     - owner(email)
     - name(string)
@@ -17,12 +17,12 @@
     - location(string)
     - category(string)("Personal" or "Business")
     - Notes(string)
-  
+
 ### edit (post)
 
-  http://localhost:8006/api/v1/edit
-  
-  body:
+http://localhost:8006/api/v1/edit
+
+body:
 
     - id(ObjectID)
     - owner(email)
@@ -32,11 +32,13 @@
     - location(string)
     - category(string)("Personal" or "Business")
     - Notes(string)
-  
+
 ### getContact (get)
 
-  http://localhost:8006/api/v1/getContact
+http://localhost:8006/api/v1/getContact
 
-  body:
+body:
 
     - owner(email)
+
+OK
